@@ -1,0 +1,30 @@
+1.写一个数学类，类中有以下几个方法：
+public int add(int a,int b); //类型不同的重载
+public double add(double a,double b);
+public String add(String a,int b); //顺序不同的重载
+public String add(int a,String b);
+public int max(int a,int b,int c);//个数不同的重载
+public int max(int a,int b)
+
+2.榨汁机
+1)	定义一个苹果类:Apple,内有公有的字段:name,color,weiDao
+2)	定义一个构造函数:为三个字段赋初始值
+3)	为三个字段分别添加get方法
+4)	定义一个榨汁机类:ZhaFruit
+5)	为ZhaFruit类添加一个榨水果汁方法:public string GetFruitZhi(Apple a),返回:
+”一杯XX(颜色)的XX(水果名)汁,味道XXX”
+6)	再定义一个香蕉类：Banana,内有公有的字段:name,color,weiDao
+7)	定义一个构造函数:为三个字段赋初始值
+8)	为三个字段分别添加get方法
+9)为ZhaFurit类添加一个重载方法public string GetFruitZhi(Apple a,Banana b),返回：
+”一杯黄绿(颜色)的香蕉苹果(水果名)汁,味道酸酸的甜甜的”
+10)为ZhaFurit类添加一个重载方法public string GetFruitZhi(Apple a,int num),返回：
+”num杯绿(颜色)的苹果(水果名)汁,味道酸酸的”
+
+3.创建一个狗类:Dog
+为Dog添加yao(咬)方法,实现狗咬的功能
+如果是yao(),什么都不传，则是“汪汪叫”
+如果是yao(String str),则是“咬骨头，好香啊”
+如果是yao(Person p),传入的是人类，如果人的性别为男，则“扑上去撕咬”，如果人的性别是女，则“跑过去舔两口”(还需定义Person类，起码有sex属性)
+
+
